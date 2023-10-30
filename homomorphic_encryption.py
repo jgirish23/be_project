@@ -1,9 +1,3 @@
-"""A basic homomorphic encryption scheme inspired from BFV https://eprint.iacr.org/2012/144.pdf
-You can read my blog post explaining the implementation details here: https://www.ayoub-benaissa.com/blog/build-he-scheme-from-scratch-python/
-Disclaimer: This implementation doesn’t neither claim to be secure nor does it follow software engineering best practices,
-it is designed as simple as possible for the reader to understand the concepts behind homomorphic encryption schemes.
-"""
-
 import numpy as np
 from numpy.polynomial import polynomial as poly
 
